@@ -1,13 +1,52 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Poppins', Poppins !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Poppins', monospace !important;
+}
+.footer-image {
+	width: 150px;
+	border-radius: 3px;
+	margin: 5px;
+}
+.footer-h2 {
+	color: #fff;
+}
+.footer-social {
+	/* border-radius: 3px; */
+	margin: 10px;
+}
+.store-info {
+	color: #707070;
+	font-family: 'Poppins';
+	font-size: 18px;
+}
+.cart-header {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cart {
+	background: #f7f7f7;
+	padding: 70;
+}
+.center {
+	text-align: center;
+}
+.summary-item {
+	color: #707070;
+}
+.summary-amount {
+	color: #000000;
+	font-weight: bold;
+}
+.sidebar-menu {
+	margin-left: 5px;
+	color: #000000;
 }
