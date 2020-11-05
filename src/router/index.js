@@ -1,2 +1,2 @@
 export { default } from './router';
-export { PRIVATE_ROUTE, PUBLIC_ROUTE } from './routePaths';
+export { PRIVATE_ROUTE } from './routePaths';
